@@ -1,0 +1,7 @@
+
+
+Install the required dependencies by running npm install puppeteer fs in the terminal.
+Save the script code to a file named generateWallets.js.
+Open the terminal and navigate to the directory where generateWallets.js is located.
+Run the command node generateWallets.js to execute the script.
+After running the script, the wallet details will be saved in the wallets.txt file in the same directory as the script.
