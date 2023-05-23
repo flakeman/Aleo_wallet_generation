@@ -1,7 +1,32 @@
+Install Node.js:
 
+Go to the official Node.js website (https://nodejs.org).
+Download the latest LTS (Long-Term Support) version suitable for your operating system.
+Run the installer and follow the prompts to install Node.js.
+Create a project folder:
 
-Install the required dependencies by running npm install puppeteer fs in the terminal.
-Save the script code to a file named generateWallets.js.
-Open the terminal and navigate to the directory where generateWallets.js is located.
-Run the command node generateWallets.js to execute the script.
-After running the script, the wallet details will be saved in the wallets.txt file in the same directory as the script.
+Open a terminal or command prompt.
+Navigate to the directory where you want to create your project folder.
+Create a new folder using the command: mkdir project-name.
+Move into the project folder using the command: cd project-name.
+Initialize a new Node.js project:
+
+Inside the project folder, run the command: npm init -y.
+This will initialize a new Node.js project with default settings.
+Install Puppeteer:
+
+In the terminal, run the command: npm install puppeteer.
+Create the script file:
+
+Use a text editor to create a new file inside the project folder, e.g., generateWallets.js.
+Copy and paste the code into the generateWallets.js file.
+Run the script:
+
+In the terminal, navigate to the project folder if you're not already in it.
+Run the command: node generateWallets.js.
+The script will launch a headless browser, generate wallets, and save the details to a file named wallets.txt.
+Check the output:
+
+After the script finishes running, check the project folder for the wallets.txt file.
+Open the wallets.txt file to view the generated wallet details.
+That's it! You've successfully run the code. Feel free to modify the script or explore other functionalities as you continue working with Node.js and Puppeteer.
